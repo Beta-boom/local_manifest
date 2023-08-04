@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-
-<remove-project name="hardware/qcom-caf/sdm845/media/libplatformconfig"/>
-
  <!-- Trees -->
  <project path="device/oneplus/enchilada" name="Beta-boom/derp_android_device_oneplus_enchilada.git" remote="github" revision="lineage-20" />
  <project path="device/oneplus/sdm845-common" name="Beta-boom/derp_android_device_oneplus_sdm845-common.git" remote="github" revision="lineage-20" />
  <project path="vendor/oneplus/enchilada" name="Beta-boom/vendor_oneplus_enchilada.git" remote="github" revision="thirteen" />
  <project path="vendor/oneplus/sdm845-common" name="Beta-boom/vendor_oneplus_sdm845-common.git" remote="github" revision="thirteen" />
  <project path="kernel/oneplus/sdm845" name="Beta-boom/kernel_oneplus_sdm845.git" remote="github" revision="thirteen" />
- <project path="hardware/oneplus" name="Beta-boom/android_hardware_oneplus.git" remote="github" revision="Tulip" />
+ <project path="hardware/oneplus" name="DerpFest-Devices/hardware_oneplus.git" remote="github" revision="13" />
  
 </manifest>

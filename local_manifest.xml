@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
- <remote name="sn" fetch="https://github.com/snnbyyds/" />
+ <remote name="zs" fetch="https://github.com/Oneplus6-Series/" />
  <!-- Trees -->
- <project path="device/oneplus/enchilada" name="Evolution-X-Devices/device_oneplus_enchilada.git" remote="github" revision="tiramisu" />
- <project path="device/oneplus/sdm845-common" name="Beta-boom/device_oneplus_sdm845-common.git" remote="github" revision="14.0" />
+ <project name="device_oneplus_enchilada" path="device/oneplus/enchilada" remote="zs" revision="14.0" />
+ <project name="device_oneplus_sdm845-common" path="device/oneplus/sdm845-common" remote="zs" revision="14.0" />
  
- <project path="vendor/oneplus/sdm845-common" name="Oneplus6-Series/vendor_oneplus_sdm845-common.git" remote="github" revision="14.0" />
- <project path="vendor/oneplus/enchilada" name="Oneplus6-Series/vendor_oneplus_enchilada.git" remote="github" revision="14.0" />
+ <project path="vendor/oneplus/sdm845-common" name="vendor_oneplus_sdm845-common" remote="zs" revision="14.0" />
+ <project path="vendor/oneplus/enchilada" name="vendor_oneplus_enchilada" remote="zs" revision="14.0" />
  
- <project path="kernel/oneplus/sdm845" name="Evolution-X-Devices/kernel_oneplus_sdm845.git" remote="github" revision="tiramisu" />
- <project path="hardware/oplus" name="Evolution-X-Devices/hardware_oplus.git" remote="github" revision="tiramisu" />
- <project path="hardware/oneplus" name="Oneplus6-Series/hardware_oneplus.git" remote="github" revision="14.0" />
+ <project path="kernel/oneplus/sdm845" name="android_kernel_oneplus_sdm845" remote="zs" revision="lineage-20" />
+ <project path="hardware/oneplus" name="hardware_oneplus" remote="zs" revision="14.0" />
  
 </manifest>

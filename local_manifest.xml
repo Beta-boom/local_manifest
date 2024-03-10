@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
- <remote name="own" fetch="https://github.com/Beta-boom" />
- <remote name="ez" fetch="https://github.com/ez-releases" />
+ <remote name="own" fetch="https://github.com/Beta-boom/" />
+ <remote name="ez" fetch="https://github.com/ez-releases/" />
  <!-- Trees -->
  <project path="device/oneplus/enchilada" name="android_device_oneplus_enchilada" remote="own" revision="awaken-14" />
  <project path="device/oneplus/sdm845-common" name="android_device_oneplus_sdm845-common" remote="own" revision="awaken-14" />
+ 
  <project path="vendor/oneplus/enchilada" name="vendor_oneplus_enchilada" remote="ez" revision="14.0" />
  <project path="vendor/oneplus/sdm845-common" name="vendor_oneplus_sdm845-common" remote="ez" revision="14.0" />
+ 
  <project path="kernel/oneplus/sdm845" name="kernel_oneplus_sdm845" remote="ez" revision="14.0" />
+ 
  <project path="hardware/oneplus" name="hardware_oneplus" remote="ez" revision="14.0" />
 </manifest>

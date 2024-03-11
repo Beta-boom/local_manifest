@@ -13,5 +13,5 @@
  
  <project path="kernel/oneplus/sdm845" name="kernel_oneplus_sdm845" remote="ez" revision="14.0" />
  
- <project path="hardware/oneplus" name="android_hardware_oneplus" remote="lineage" revision="lineage-21" />
+ <project path="hardware/oneplus" name="hardware_oneplus" remote="own" revision="awaken-14" />
 </manifest>

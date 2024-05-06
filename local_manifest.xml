@@ -14,7 +14,7 @@
  
   <project path="kernel/oneplus/sdm845" name="android_kernel_oneplus_sdm845" remote="lineage" revision="lineage-21" />
  
-  <project path="hardware/oneplus" name="hardware_oneplus" remote="pixelos-devices" revision="thirteen" />
+  <project path="hardware/oneplus" name="hardware_oneplus" remote="own" revision="lineage-21" />
 
   <project path="packages/apps/OPlusExtras" name="packages_apps_OPlusExtras" remote="evo-devices" revision="udc" />
 </manifest>
